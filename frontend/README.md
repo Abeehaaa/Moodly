@@ -8,6 +8,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+In the **backend** directory, you can run:
+
+### `python app.py`
+
+This starts the Flask server on [http://localhost:5000](http://localhost:5000)  
+Make sure to install all dependencies with:
+
+```bash
+pip install flask flask-cors numpy opencv-python tensorflow keras pillow
+```
+
 In the **frontend** project directory, you can run:
 
 ### `npm install`
@@ -23,14 +34,3 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ---
-
-In the **backend** directory, you can run:
-
-### `python app.py`
-
-This starts the Flask server on [http://localhost:5000](http://localhost:5000)  
-Make sure to install all dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
