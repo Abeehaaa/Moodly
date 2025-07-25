@@ -70,7 +70,7 @@ const backgroundMap = {
   neutral: "/images/neutral_bg.jpg",
 };
 
-const YOUTUBE_API_KEY = "AIzaSyC1AgcrnWOl14d7Ns1lstFYr0NXJ1lk_P4";
+const YOUTUBE_API_KEY = "API_KEY";
 
 const fetchYouTubeVideoId = async (query) => {
   try {
